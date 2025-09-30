@@ -18,7 +18,10 @@ main {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  /* background-color: #E0E0E0; */
+ /* background-color: #E0E0E0;  */
+ background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'); 
+ background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .definition-display {
@@ -26,8 +29,10 @@ main {
   box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
   border-radius: 5px;
   width: 80%;
-  background-color: #F9F9F9;
+  /* background: gradient(to right, #ffffff, #f0f0f0); */
+  background-color: rgba(137, 210, 243, 0.8);
   padding: 20px;
+  color: black;
 }
 
 .word-search{
@@ -69,6 +74,12 @@ article {
   margin-bottom: 20px;
 }
 
+h1{
+  /* border: 1PX solid red; */
+  font-size: 32px;
+  font-family: 'Arial', sans-serif;
+
+}
 h2 {
   font-size: 24px;
   margin-bottom: 10px;
